@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 tools/crawl.py:*)",
+      "Bash(python3 tools/psi.py:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push origin HEAD:main)",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "deny": ["Bash(git push --force:*)", "Bash(git push -f:*)"]
+  }
+}
